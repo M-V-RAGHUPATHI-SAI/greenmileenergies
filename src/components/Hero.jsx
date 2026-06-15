@@ -24,8 +24,8 @@ export default function Hero() {
   return (
     <header className="relative text-white min-h-screen flex items-center overflow-hidden pt-24 pb-16"
       style={{ backgroundImage: `url(${businessConfig.heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-      {/* Dark gradient overlay — left heavy for text contrast */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/65 to-black/30 pointer-events-none" />
+      {/* Subtle overlay — image is already dark, just enough for text clarity */}
+      <div className="absolute inset-0 bg-black/30 pointer-events-none" />
       <div className="max-w-6xl mx-auto px-6 lg:px-8 w-full relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left */}
