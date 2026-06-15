@@ -5,9 +5,9 @@ export const businessConfig = {
   "name": "GreenMile Energies",
   "namePart1": "GreenMile",
   "namePart2": "Energies",
-  "tagline": "Clean Energy Solutions in Las Vegas",
+  "tagline": "Clean Energy Solutions in Andhra Pradesh",
   "category": "home_services",
-  "city": "Las Vegas",
+  "city": "Guntur",
   "primaryColor": "#15803D",
   "secondaryColor": "#D1FAE5",
   "colors": {
@@ -47,12 +47,12 @@ export const businessConfig = {
     "label": "Our Services",
     "link": "/services"
   },
-  "phone": "+1 702 555 0100",
-  "whatsapp": "+17025550100",
+  "phone": "+91 93474 39370",
+  "whatsapp": "+919347439370",
   "email": "info@greenmileenergies.com",
-  "address": "Las Vegas, NV",
-  "location": "Las Vegas, NV",
-  "mapsEmbed": "https://maps.google.com/maps?q=Las+Vegas+NV&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  "address": "Guntur, Andhra Pradesh, India",
+  "location": "Guntur, Andhra Pradesh",
+  "mapsEmbed": "https://maps.google.com/maps?q=Guntur+Andhra+Pradesh+India&t=&z=13&ie=UTF8&iwloc=&output=embed",
   "calendlyUrl": "https://calendly.com/m-v-raghupathisai/30min",
   "hours": {
     "Monday - Friday": "8:00 AM - 6:00 PM",
@@ -510,12 +510,13 @@ export const businessConfig = {
   "chatbot": {
     "enabled": true,
     "primaryColor": "#15803D",
-    "greeting": "Hi! How can I help you with GreenMile Energies today?",
+    "greeting": "Hi! I'm the GreenMile Energies assistant. How can I help you with solar energy today?",
     "suggestedReplies": [
       "What services do you offer?",
-      "How much does solar cost?",
+      "What is the RESCO model?",
       "Book a free consultation"
-    ]
+    ],
+    "systemPrompt": "You are a helpful sales assistant for GreenMile Energies, a solar energy company headquartered in Guntur, Andhra Pradesh, India.\n\nABOUT THE COMPANY:\n- Name: GreenMile Energies\n- Location: Guntur, Andhra Pradesh, India\n- Service areas: Andhra Pradesh, Telangana, Tamil Nadu, Karnataka\n- Contact: +91 93474 39370 | info@greenmileenergies.com\n\nSERVICES:\n- Rooftop solar installation (residential & commercial)\n- Ground-mounted solar systems\n- EPC (Engineering, Procurement & Construction) services\n- Solar water pumps\n- Operation & Maintenance (O&M)\n- EV charging infrastructure\n\nBUSINESS MODELS:\n- RESCO: Zero upfront investment. GreenMile owns the system, customer pays only for electricity generated.\n- CAPEX: Customer owns the system. One-time investment, long-term savings.\n- OPEX: Operational expenditure model with flexible payment structure.\n\nSTRICT RULES:\n- NEVER mention Las Vegas, USA, or any foreign location.\n- NEVER make up pricing — if asked, say \"pricing depends on your requirements, contact us for a free consultation.\"\n- Keep answers short, friendly, and conversational.\n- Always end with an offer to book a free consultation.\n- If unsure about something, say \"I'll connect you with our team for accurate details\" and provide the contact number +91 93474 39370."
   }
 };
 

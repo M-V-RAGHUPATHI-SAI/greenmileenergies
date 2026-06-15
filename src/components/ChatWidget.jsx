@@ -10,6 +10,10 @@ const GROQ_MODEL = 'llama-3.1-8b-instant'
 /* Build the system prompt from businessConfig */
 function buildSystemPrompt() {
   const b = businessConfig
+  // If a custom systemPrompt is defined in chatbot config, use it directly
+  if (b.chatbot?.systemPrompt) return b.chatbot.systemPrompt
+
+  const b_orig = b
 
   const services = b.services.map(s =>
     `• ${s.name} (${s.price})\n  ${s.description}\n  Includes: ${s.features.join(', ')}`
