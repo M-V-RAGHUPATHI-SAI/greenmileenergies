@@ -2,12 +2,12 @@
 
 @theme {
   /* Colors — names match businessConfig.colors keys for JS injection alignment */
-  --color-primary:     #1C3F3A;
-  --color-primaryDark: #142e2a;
-  --color-secondary:   #6BBF9E;
-  --color-dark:        #0A0C29;
-  --color-lightGray:   #E9EAE8;
-  --color-cream:       #EBEBE6;
+  --color-primary:     #15803D;
+  --color-primaryDark: #10692F;
+  --color-secondary:   #D1FAE5;
+  --color-dark:        #0C1A10;
+  --color-lightGray:   #F0FDF4;
+  --color-cream:       #ECFDF5;
   --color-white:       #ffffff;
   --color-muted:       #6b7280;
   --color-border:      #e5e7eb;
