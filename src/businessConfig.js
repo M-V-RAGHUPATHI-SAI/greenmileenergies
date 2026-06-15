@@ -33,7 +33,7 @@ export const businessConfig = {
   "headlineLight": "Sustainable Energy",
   "headlineBold": "Clean Energy Solutions",
   "heroKeyword": "RENEWABLE",
-  "heroImage": "/hero-cleaner-fixed.png",
+  "heroImage": "/hero-solar.jpg",
   "aboutImage": "https://images.pexels.com/photos/9304682/pexels-photo-9304682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "heroSubtext": "Transforming Las Vegas's energy landscape with solar, storage, and EV solutions.",
   "ctaBannerHeadline": "Join the Green Revolution",
