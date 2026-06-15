@@ -22,8 +22,11 @@ const trustChips = [
 
 export default function Hero() {
   return (
-    <header className="relative bg-[var(--color-primary)] text-white min-h-screen flex items-center overflow-hidden pt-24 pb-16">
-      <div className="max-w-6xl mx-auto px-6 lg:px-8 w-full">
+    <header className="relative text-white min-h-screen flex items-center overflow-hidden pt-24 pb-16"
+      style={{ backgroundImage: `url(${businessConfig.heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      {/* Dark gradient overlay — left heavy for text contrast */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/65 to-black/30 pointer-events-none" />
+      <div className="max-w-6xl mx-auto px-6 lg:px-8 w-full relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left */}
           <motion.div variants={container} initial="hidden" animate="visible">
@@ -33,9 +36,9 @@ export default function Hero() {
             </motion.div>
 
             {/* Headline */}
-            <motion.h1 variants={item} className="mt-6" style={{ letterSpacing: '-0.02em', lineHeight: 1.05 }}>
-              <span className="block font-light" style={{ fontSize: 'clamp(44px, 5.5vw, 72px)' }}>{businessConfig.headlineLight}</span>
-              <span className="block font-extrabold italic" style={{ fontSize: 'clamp(44px, 5.5vw, 72px)' }}>{businessConfig.headlineBold}</span>
+            <motion.h1 variants={item} className="mt-6 text-white" style={{ letterSpacing: '-0.02em', lineHeight: 1.05 }}>
+              <span className="block font-light text-white" style={{ fontSize: 'clamp(44px, 5.5vw, 72px)' }}>{businessConfig.headlineLight}</span>
+              <span className="block font-extrabold italic text-white" style={{ fontSize: 'clamp(44px, 5.5vw, 72px)' }}>{businessConfig.headlineBold}</span>
             </motion.h1>
 
             {/* Subtext */}
@@ -70,7 +73,7 @@ export default function Hero() {
           >
             {/* Main card */}
             <div className="relative rounded-2xl overflow-hidden aspect-[4/5] bg-[var(--color-primary)]">
-              <img src={businessConfig.heroImage} alt={businessConfig.name} className="w-full h-full object-cover opacity-90" onError={e => { e.target.style.display = 'none' }} />
+              <img src={businessConfig.heroImage} alt={businessConfig.name} className="w-full h-full object-cover brightness-[0.55]" onError={e => { e.target.style.display = 'none' }} />
             </div>
 
             {/* Floating stat card */}
