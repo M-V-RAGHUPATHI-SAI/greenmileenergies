@@ -6,7 +6,7 @@ export const businessConfig = {
   "namePart1": "GreenMile",
   "namePart2": "Energies",
   "tagline": "Clean Energy Solutions in Andhra Pradesh",
-  "category": "home_services",
+  "category": "solar",
   "city": "Guntur",
   "primaryColor": "#15803D",
   "secondaryColor": "#D1FAE5",
